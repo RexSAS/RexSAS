@@ -1,21 +1,75 @@
-### Hi there 👋
+<img src="assets/terminal.svg" width="100%" alt="Terminal: cloning side-projects finds way too many side projects, make free-time fails, git commit fix: everything deletes 4096 lines." />
 
-<img src="https://github-readme-stats.vercel.app/api?username=RexSAS&count_private=true&show_icons=true&theme=dark" /><img src="https://github-readme-streak-stats.herokuapp.com/?user=RexSAS&theme=dark" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RexSAS&theme=dark" />
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RexSAS&theme=dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RexSAS&theme=dark&utcOffset=8)
-<img src="https://github-profile-trophy.vercel.app/?username=RexSAS&theme=dark" />
-</br>
-#### My Skills
-![My Skills](https://skillicons.dev/icons?i=cs,cypress,discord,gamemakerstudio,github,githubactions,gmail,html,md,sketchup,svg,unity,unreal,terraform,visualstudio,vscode,windows)
-</br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RexSAS" />
-</br>
-<a href='https://discord.com/users/543091598746189845'><img alt="discord status" src="https://dev.discordprofiles.me/badge/status/543091598746189845" /></a>
-<img alt="listening to" src="https://dev.discordprofiles.me/badge/spotify/543091598746189845" />
-<img alt="Profile views" src="https://komarev.com/ghpvc/?username=RexSAS" />
-<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/RexSAS" />
-<a href="https://www.bestpractices.dev/projects/8092"><img src="https://www.bestpractices.dev/projects/8092/badge"></a>
-<a href='https://github.com/sponsors/RexSAS'>
-  <img alt="Sponsor" src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4" />
-</a>
+### `$ cat rexsas.toml`
+
+```toml
+[package]
+name        = "rexsas"
+description = "takes things apart, mostly puts them back together"
+license     = "WTFPL"
+
+[dependencies]
+coffee       = "*"
+docker       = { version = "latest", features = ["one-more-container"] }
+gym          = { optional = false }
+rabbit-holes = { git = "https://en.wikipedia.org", branch = "3am" }
+sleep        = { version = "0.4", optional = true }
+
+[dev-dependencies]
+neovim = "btw"
+```
+
+### `$ git stats`
+
+<img src="assets/stats.svg" width="100%" alt="Git stats for the last year: contributions, streaks, repos, stars, top languages and contribution graph" />
+
+### 🐛 Open issues
+
+| # | Title | Label |
+|---|---|---|
+| #1 | Has more side projects than free time | ![duplicate](https://img.shields.io/badge/duplicate-cfd3d7?style=flat-square) |
+| #42 | rxcord is being rewritten. Again. | ![wontfix](https://img.shields.io/badge/wontfix-ffffff?style=flat-square) |
+| #69 | Home server has better uptime than its admin | ![works as intended](https://img.shields.io/badge/works%20as%20intended-0e8a16?style=flat-square) |
+| #404 | Free time not found | ![bug](https://img.shields.io/badge/bug-d73a4a?style=flat-square) |
+| #500 | Opened Ghidra "just to take a quick look" | ![help wanted](https://img.shields.io/badge/help%20wanted-008672?style=flat-square) |
+
+### 📌 `$ tree rxenv`
+
+[**rxenv**](https://github.com/RexSAS/rxenv) is my whole home setup in one place. Everything below lives in it:
+
+```
+rxenv/
+├── RxFilms/            # Jellyfin server. runs 24/7, unlike me
+├── jellyfin-plus-TV/   # RxFilms app for FireStick and LG TVs
+├── rxhome-tv/          # I wrote my own TV launcher. yes, really
+├── rxhome/             # phone app for the server, the TV and the lights
+└── rxcord/             # Discord client in Rust, the official one ate my FPS
+```
+
+### 🧪 Also
+
+- [**Karvo**](https://github.com/RexSAS/Karvo) + [**karvo-web**](https://github.com/RexSAS/karvo-web): ski instructors log lessons, hours and pay. Lessons stay on your phone
+- [**The Oregon Thoughts**](https://github.com/RexSAS/The_Oregon_Thoughts): a CTF I made. You have died of dysentery 🐂
+
+### `$ git log --oneline`
+
+```diff
++ a3f9c21 (HEAD -> main) Revert "ok this one actually works"
++ 7b1e0d4 ok this one actually works
++ 51c8e9a final final
++ e04d7f2 final
++ 9c2a6b8 fix: the fix
++ 0xfe0042 fix: typo
++ 1d0c3e5 it works on my machine
+- 0000000 init: hello world
+```
+
+### 🧰 Stuff I break things with
+
+<img src="https://skillicons.dev/icons?i=rust,kotlin,java,py,c,bash,js,linux,docker,raspberrypi,neovim,git&theme=dark" alt="Rust, Kotlin, Java, Python, C, Bash, JavaScript, Linux, Docker, Raspberry Pi, Neovim, Git" />
+
+<p align="center">
+  <sub>⭐ star something if it made you smile · this README has been rewritten more times than rxcord · <a href="https://rxsas.it">rxsas.it</a></sub>
+  <br /><br />
+  <img src="https://komarev.com/ghpvc/?username=RexSAS&style=flat-square&color=e2492a&label=people+who+got+lost+here" alt="Profile views" />
+</p>
