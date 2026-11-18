@@ -11,7 +11,7 @@ OUT = Path(__file__).parent / "terminal.svg"
 BG, BAR, LINE = "#0f0e12", "#1a1920", "#2a2830"
 INK, MUTED, ACCENT, SAND, SKY, GREEN = "#f2f1ed", "#8f8e88", "#e2492a", "#dcc47e", "#93b7cc", "#8fbf7f"
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-PROMPT = "me@homelab:~$ "
+PROMPT = "me@rxenv:~$ "
 
 # (kind, text): "cmd" lines get typed out, everything else just appears
 LINES = [
@@ -64,7 +64,7 @@ def build():
             f'<path d="M0 12a12 12 0 0 1 12-12h{W - 24}a12 12 0 0 1 12 12v28H0z" fill="{BAR}"/>'
             f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="12" fill="none" stroke="{LINE}"/>'
             f'{lights}<text x="{W / 2}" y="25" text-anchor="middle" font-family="{MONO}" font-size="13" '
-            f'fill="{MUTED}">me@homelab: ~</text>'
+            f'fill="{MUTED}">me@rxenv: ~</text>'
             f'<g font-family="{MONO}" font-size="{FS}" xml:space="preserve">{"".join(parts)}</g></svg>\n')
 
 
@@ -176,7 +176,7 @@ def stats_svg(user):
             f'<path d="M0 12a12 12 0 0 1 12-12h{W - 24}a12 12 0 0 1 12 12v28H0z" fill="{BAR}"/>'
             f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="12" fill="none" stroke="{LINE}"/>'
             f'{lights}<text x="{W / 2}" y="25" text-anchor="middle" font-family="{MONO}" font-size="13" '
-            f'fill="{MUTED}">me@homelab: ~</text><g font-family="{MONO}" font-size="16">{"".join(p)}</g>'
+            f'fill="{MUTED}">me@rxenv: ~</text><g font-family="{MONO}" font-size="16">{"".join(p)}</g>'
             f'{"".join(cells)}</svg>\n')
 
 
